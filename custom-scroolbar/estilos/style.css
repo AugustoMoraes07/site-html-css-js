@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(105, 105, 105);
+
+}
+
+.card{
+    width: 700px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    text-align: justify;
+    line-height: 2em;
+}
+
+::-webkit-scrollbar{
+    color: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom, rgb(39, 39, 39), rgb(197, 197, 197));
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+}
